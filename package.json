@@ -1,0 +1,26 @@
+{
+  "name": "lesson_36",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.mjs",
+    "test:jest": "jest --watchAll --config=jest.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@types/node": "^16.11.26",
+    "chai": "^4.3.6",
+    "chai-url": "^1.0.4",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.2",
+    "sinon": "^13.0.1",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.2"
+  }
+}
